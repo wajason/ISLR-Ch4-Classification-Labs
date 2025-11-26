@@ -36,8 +36,8 @@ This tutorial goes beyond simply repeating the code by including:
 
 ### Data Source
 All data and primary code structure are derived from:
-* [cite_start]**Book:** *An Introduction to Statistical Learning with Applications in R* (ISLR)[cite: 2].
-* [cite_start]**Authors:** Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani (2021)[cite: 2].
+* **Book:** *An Introduction to Statistical Learning with Applications in R* (ISLR).
+* **Authors:** Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani (2021).
 * **Packages:** Primarily relies on `ISLR2`, `MASS` (for LDA/QDA), `e1071` (for Naive Bayes), and `class` (for KNN).
 
 ### How to Reproduce
