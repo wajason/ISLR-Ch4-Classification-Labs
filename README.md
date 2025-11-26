@@ -16,9 +16,9 @@ The aim is to provide a clear, step-by-step tutorial on applying various classif
 This tutorial goes beyond simply repeating the code by including:
 
 * **Model Performance Comparison:** Directly compares the accuracy and predictive power of **Logistic Regression (GLM)**, **Linear Discriminant Analysis (LDA)**, **Quadratic Discriminant Analysis (QDA)**, **Naive Bayes**, and **K-Nearest Neighbors (KNN)** on the challenging S&P 500 (`Smarket`) dataset.
-* [cite_start]**Best Model Identification:** QDA and Naive Bayes show significantly better performance on the `Smarket` data, achieving nearly 60% accuracy[cite: 398, 444].
-* [cite_start]**Handling Imbalanced Data:** Implementation and analysis of the `Caravan` insurance dataset, focusing on the true success rate (precision) rather than overall accuracy, highlighting the use of a modified prediction threshold (e.g., $P > 0.25$)[cite: 556, 633].
-* [cite_start]**Count Data Modeling:** Includes the dedicated Section 4.7.7 on using **Poisson Regression** to model bike rental counts (`Bikeshare` dataset), visually demonstrating why the Linear Model fails to predict non-negative counts and extreme values[cite: 873, 875].
+* **Best Model Identification:** QDA and Naive Bayes show significantly better performance on the `Smarket` data, achieving nearly 60% accuracy.
+* **Handling Imbalanced Data:** Implementation and analysis of the `Caravan` insurance dataset, focusing on the true success rate (precision) rather than overall accuracy, highlighting the use of a modified prediction threshold (e.g., $P > 0.25$).
+* **Count Data Modeling:** Includes the dedicated Section 4.7.7 on using **Poisson Regression** to model bike rental counts (`Bikeshare` dataset), visually demonstrating why the Linear Model fails to predict non-negative counts and extreme values.
 * **Detailed Annotations:** Every line of R code is annotated with explanations of the underlying statistical theory and practical interpretation.
 
 ---
